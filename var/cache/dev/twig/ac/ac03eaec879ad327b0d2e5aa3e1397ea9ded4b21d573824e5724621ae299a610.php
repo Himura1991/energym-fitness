@@ -1,0 +1,1356 @@
+<?php
+
+/* EnergymPageBundle:Default:index.html.twig */
+class __TwigTemplate_5a9b7488eb7360bb38172cff91b0d009380eb290a370add33c24937a1fdc64f2 extends Twig_Template
+{
+    public function __construct(Twig_Environment $env)
+    {
+        parent::__construct($env);
+
+        $this->parent = false;
+
+        $this->blocks = array(
+        );
+    }
+
+    protected function doDisplay(array $context, array $blocks = array())
+    {
+        $__internal_0838008ec763e209eb07c28c85929dc8772c2fd165030ed70f9565faa40721ec = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_0838008ec763e209eb07c28c85929dc8772c2fd165030ed70f9565faa40721ec->enter($__internal_0838008ec763e209eb07c28c85929dc8772c2fd165030ed70f9565faa40721ec_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "EnergymPageBundle:Default:index.html.twig"));
+
+        // line 1
+        echo "<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=\"utf-8\">
+    <meta content=
+          \"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\"
+          name=\"viewport\">
+    <title>Energym Fitness Urquiza</title>
+
+
+    <meta http-equiv=\"content-type\" content=\"text/html; charset=iso-8859-1\">
+    <title>Gimnasio en Villa Urquiza - Energym Fitness</title>
+    <meta http-equiv=\"Content-Language\" content=\"es-ar\">
+    <meta content=\"Gimnasios en Argentina,Villa Urquiza,Gim,musculaciÃ³n,gimnasia,Gimnasia,aparatos,Fitness,abdominales,aero step,aerÃ³bica,aero local,gym-local,indor cycle, local,localizada,local power training,pilates,power step,step local,stetching,tae-bo,taekwon-do,training,Suplementos nutricionales para deportistas,cintas de correr,maquinas,discos,pesas,mancuernas,proteinas,vitaminas,creatina,glutamina,aminoacidos,cabohidratos\" name=\"description\">
+    <meta http-equiv=\"description\" content=\"Gimnasios en Argentina,Villa Urquiza,Gim,musculaciÃ³n,gimnasia,Gimnasia,aparatos,Fitness,abdominales,aero step,aerÃ³bica,aero local,gym-local,indor cycle, local,localizada,local power training,pilates,power step,step local,stetching,tae-bo,taekwon-do,training,Suplementos nutricionales para deportistas,cintas de correr,maquinas,discos,pesas,mancuernas,proteinas,vitaminas,creatina,glutamina,aminoacidos,cabohidratos\">
+    <meta http-equiv=\"DC.Description\" content=\"Gimnasios en Argentina,Villa Urquiza,Gim,musculaciÃ³n,gimnasia,Gimnasia,aparatos,Fitness,abdominales,aero step,aerÃ³bica,aero local,gym-local,indor cycle, local,localizada,local power training,pilates,power step,step local,stetching,tae-bo,taekwon-do,training,Suplementos nutricionales para deportistas,cintas de correr,maquinas,discos,pesas,mancuernas,proteinas,vitaminas,creatina,glutamina,aminoacidos,cabohidrato\">
+    <meta content=\"Gimnasios en Argentina Villa Urquiza musculaciÃ³n gimnasia Gimnasia aparatos sauna Fitness Pilates Abdominales Aero Aero Local Gym-Local Indor Cycle Local Localizada Local power training Power Step Step Local Stretching Tae-Bo Taekwon-Do Training Suplementos nutricionales para deportistas cintas de correr maquinas discos pesas mancuernas proteinas vitaminas creatina glutamina aminoacidos cabohidratos\" name=\"keywords\">
+    <meta http-equiv=\"keywords\" content=\"Gimnasios en Argentina Villa Urquiza musculaciÃ³n gimnasia Gimnasia aparatos sauna Fitness Pilates Abdominales Aero Aero Local Gym-Local Indor Cycle Local Localizada Local power training Power Step Step Local Stretching Tae-Bo Taekwon-Do Training Suplementos nutricionales para deportistas cintas de correr maquinas discos pesas mancuernas proteinas vitaminas creatina glutamina aminoacidos cabohidratos\">
+    <meta name=\"author\" content=\"www.webymultimedia.com.ar\">
+    <meta name=\"copyright\" content=\"Â©EnerGym Fitness - Todos los Derechos Reservados. \">
+    <meta name=\"distribution\" content=\"global\">
+    <meta name=\"robots\" content=\"all\">
+    <meta name=\"rating\" content=\"general\">
+    <meta name=\"geo.position\" content=\"-34.6000; -58.4000\">
+
+    <link href='";
+        // line 26
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("css/bootstrap.css"), "html", null, true);
+        echo "' rel=\"stylesheet\" type=\"text/css\">
+    <link href='";
+        // line 27
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("css/estilos.css"), "html", null, true);
+        echo "' rel=\"stylesheet\" type=\"text/css\">
+    <link href='";
+        // line 28
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("css/animate.css"), "html", null, true);
+        echo "' rel=\"stylesheet\" type=\"text/css\">
+    <link href='";
+        // line 29
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("css/theme.css"), "html", null, true);
+        echo "' rel=\"stylesheet\" type=\"text/css\">
+    <link href='";
+        // line 30
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("css/slick-theme.css"), "html", null, true);
+        echo "' rel=\"stylesheet\" type=\"text/css\">
+    <link href='";
+        // line 31
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("css/font-awesome.min.css"), "html", null, true);
+        echo "' rel=\"stylesheet\" type=\"text/css\">
+    <link href=\"http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css\" rel=
+    \"stylesheet\" type=\"text/css\">
+</head>
+<body>
+<div class=\"container-fluid wrapper\">
+    <header>
+        <section class=\"logo\">
+            <img src='";
+        // line 39
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("img/logo3.png"), "html", null, true);
+        echo "'>
+            <nav class=\"navbar navbar-default\">
+                <div class=\"container-fluid\">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class=\"navbar-header\">
+                        <button aria-expanded=\"false\" class=
+                        \"navbar-toggle collapsed\" data-target=
+                                \"#bs-example-navbar-collapse-1\" data-toggle=
+                                \"collapse\" type=\"button\"><span class=
+                                                               \"sr-only\">Toggle navigation</span> <span class=
+                                                                                                        \"icon-bar\"></span> <span class=\"icon-bar\"></span>
+                            <span class=\"icon-bar\"></span></button>
+                    </div>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class=\"collapse navbar-collapse\" id=
+                    \"bs-example-navbar-collapse-1\">
+                        <ul class=\"nav navbar-nav\">
+                            <li>
+                                <a href=\"/\">Home</a>
+                            </li>
+                            <li>
+                                <a href=\"acerca\">Acerca de</a>
+                            </li>
+                            <li>
+                                <a href=\"horarios\">Horarios</a>
+                            </li>
+                            <li>
+                                <a href=\"contacto\">Contacto</a>
+                            </li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+            </nav>
+        </section>
+    </header>
+    <main class=\"col-xs-12 col-lg-12\">
+        <section class=\"carrousel\">
+            <div class=\"carousel slide\" data-ride=\"carousel\" id=
+            \"myCarousel\">
+                <!-- Indicators -->
+                <ol class=\"carousel-indicators\">
+                    <li class=\"active\" data-slide-to=\"0\" data-target=
+                    \"#myCarousel\"></li>
+                    <li data-slide-to=\"1\" data-target=\"#myCarousel\"></li>
+                    <li data-slide-to=\"2\" data-target=\"#myCarousel\"></li>
+                    <li data-slide-to=\"3\" data-target=\"#myCarousel\"></li>
+                    <li data-slide-to=\"4\" data-target=\"#myCarousel\"></li>
+                    <li data-slide-to=\"5\" data-target=\"#myCarousel\"></li>
+                    <li data-slide-to=\"6\" data-target=\"#myCarousel\"></li>
+                    <li data-slide-to=\"7\" data-target=\"#myCarousel\"></li>
+                    <li data-slide-to=\"8\" data-target=\"#myCarousel\"></li>
+                    <li data-slide-to=\"9\" data-target=\"#myCarousel\"></li>
+                    <li data-slide-to=\"10\" data-target=\"#myCarousel\"></li>
+                    <li data-slide-to=\"11\" data-target=\"#myCarousel\"></li>
+                    <li data-slide-to=\"12\" data-target=\"#myCarousel\"></li>
+                    <li data-slide-to=\"13\" data-target=\"#myCarousel\"></li>
+                    <li data-slide-to=\"14\" data-target=\"#myCarousel\"></li>
+                    <li data-slide-to=\"15\" data-target=\"#myCarousel\"></li>
+                </ol><!-- Wrapper for slides -->
+                <div class=\"carousel-inner\" role=\"listbox\">
+                    <div class=\"item active\"><img alt=\"Chania\" src=
+                        \"img/0.jpg\"></div>
+                    <div class=\"item\"><img alt=\"Chania\" src=
+                        \"img/1.jpg\"></div>
+                    <div class=\"item\"><img alt=\"Flower\" src=
+                        \"img/2.jpg\"></div>
+                    <div class=\"item\"><img alt=\"Flower\" src=
+                        \"img/3.jpg\"></div>
+                    <div class=\"item\"><img alt=\"Flower\" src=
+                        \"img/4.jpg\"></div>
+                    <div class=\"item\"><img alt=\"Flower\" src=
+                        \"img/5.jpg\"></div>
+                    <div class=\"item\"><img alt=\"Flower\" src=
+                        \"img/6.jpg\"></div>
+                    <div class=\"item\"><img alt=\"Flower\" src=
+                        \"img/7.jpg\"></div>
+                    <div class=\"item\"><img alt=\"Flower\" src=
+                        \"img/8.jpg\"></div>
+                    <div class=\"item\"><img alt=\"Flower\" src=
+                        \"img/9.jpg\"></div>
+                    <div class=\"item\"><img alt=\"Flower\" src=
+                        \"img/10.jpg\"></div>
+                    <div class=\"item\"><img alt=\"Flower\" src=
+                        \"img/11.jpg\"></div>
+                    <div class=\"item\"><img alt=\"Flower\" src=
+                        \"img/12.jpg\"></div>
+                    <div class=\"item\"><img alt=\"Flower\" src=
+                        \"img/13.jpg\"></div>
+                    <div class=\"item\"><img alt=\"Flower\" src=
+                        \"img/14.jpg\"></div>
+                    <div class=\"item\"><img alt=\"Flower\" src=
+                        \"img/15.jpg\"></div>
+                </div><!-- Left and right controls -->
+                <a class=\"left carousel-control\" data-slide=\"prev\" href=
+                \"#myCarousel\" role=\"button\"><span aria-hidden=\"true\" class=
+                    \"glyphicon glyphicon-chevron-left\"></span> <span class=
+                                                                     \"sr-only\">Previous</span></a> <a class=
+                                                                                                      \"right carousel-control\" data-slide=\"next\" href=
+                                                                                                      \"#myCarousel\" role=\"button\"><span aria-hidden=\"true\" class=
+                    \"glyphicon glyphicon-chevron-right\"></span> <span class=
+                                                                      \"sr-only\">Next</span></a>
+            </div>
+        </section>
+        <section class=\"actividades col-lg-12 col-xs-12\">
+            <h1 class=\"ribbon\"><strong class=\"ribbon-content\">Nuestras
+                    actividades</strong></h1>
+            <div class=\"col-lg-11 col-xs-12 col-lg-offset-1\">
+                <div class=\"act-caja col-lg-2 col-xs-12\">
+                    <img alt=\"...\" class=\"img-circle\" src=
+                    \"img/musculacion.jpg\"> <label class=
+                                                  \"actividad\">Musculacion</label>
+                </div>
+                <div class=\"act-caja col-lg-2 col-xs-12\">
+                    <img alt=\"...\" class=\"img-circle\" src=
+                    \"img/rutinas.jpg\"> <label class=
+                                              \"actividad\">Rutina</label>
+                </div>
+                <div class=\"act-caja col-lg-2 col-xs-12\">
+                    <img alt=\"...\" class=\"img-circle\" src=
+                    \"img/aerobics.jpg\"> <label class=
+                                               \"actividad\">aerobics</label>
+                </div>
+                <div class=\"act-caja col-lg-2 col-xs-12\">
+                    <img alt=\"...\" class=\"img-circle\" src=\"img/salon.jpg\">
+                    <label class=\"actividad\">salon</label>
+                </div>
+                <div class=\"act-caja col-lg-2 col-xs-12\">
+                    <img alt=\"...\" class=\"img-circle\" src=\"img/Spa.jpg\">
+                    <label class=\"actividad\">Spa</label>
+                </div>
+            </div>
+        </section>
+        <section class=\" col-lg-12 col-xs-12\">
+            <h1 class=\"ribbon\"><strong class=
+                                       \"ribbon-content\">Clases</strong></h1>
+            <div class=
+                 \"slider demo col-sm-12 col-lg-12 col-lg-offset-2 col-xs-offset-1\"
+                 style=\" width: 70%; text-align: center;\">
+                <div class=\"col-sm-6 col-lg-12\">
+                    <div class=
+                         \"class class-overlay-container wow slideInUp\" style=
+                         \"visibility: visible; animation-name: slideInUp;\">
+                        <img alt=\"Class Image\" src=
+                        \"http://www.themesinspire.biz/templates/your-fitness-html/red/images/classes/1.jpg\">
+                        <div class=\"class-overlay clearfix\">
+                            <article class=\"entry-contents\" style=
+                            \"height: 100%;\">
+                                <p style=\"padding-top:150px\">En esta
+                                    actividad convergen distintas técnicas
+                                    pensadas para mejorar la elasticidad, la
+                                    elongación, la relajación y las técnicas de
+                                    respiración. Se realiza en colchonetas
+                                    sobre el suelo y puede incluir el uso de
+                                    diversos elementos como bandas elásticas,
+                                    pelotas, pesas o aros para lograr un mejor
+                                    rendimiento físico en cada rutina de
+                                    ejercicios.</p>
+                            </article>
+                        </div>
+                        <h4 class=\"tag\">Pilates</h4>
+                    </div>
+                </div>
+                <div class=\"col-sm-6 col-lg-12\">
+                    <div class=
+                         \"class class-overlay-container wow slideInUp\" style=
+                         \"visibility: visible; animation-name: slideInUp;\">
+                        <img alt=\"Class Image\" src=
+                        \"http://www.themesinspire.biz/templates/your-fitness-html/red/images/classes/9.jpg\">
+                        <div class=\"class-overlay clearfix\">
+                            <article class=\"entry-contents\" style=
+                            \"height: 100%;\">
+                                <p style=\"padding-top:30px\">La zona
+                                    abdominal esta compuesta por tres grupos
+                                    musculares: rectos, oblicuos y bajos. Para
+                                    ejercitar los músculos abdominales es
+                                    importante tener en cuenta no solo la
+                                    intensidad, sino también la postura-
+                                    Siguiendo las indicaciones del entrenador
+                                    en poco tiempo aprenderá a realizar
+                                    correctamente los ejercicios y rutinas que
+                                    le permitirán fortalecer y tonificar la
+                                    zona abdominal. Esta práctica es ideal para
+                                    quienes buscan tener un abdomen plano y
+                                    marcado.</p>
+                            </article>
+                        </div>
+                        <h4 class=\"tag\">Abdominales Total</h4>
+                    </div>
+                </div>
+                <div class=\"col-sm-6 col-lg-12\">
+                    <div class=
+                         \"class class-overlay-container wow slideInUp\" style=
+                         \"visibility: visible; animation-name: slideInUp;\">
+                        <img alt=\"Class Image\" src=
+                        \"http://www.themesinspire.biz/templates/your-fitness-html/red/images/classes/10.jpg\">
+                        <div class=\"class-overlay clearfix\">
+                            <article class=\"entry-contents\" style=
+                            \"height: 100%;\">
+                                <p style=\"padding-top:30px\">El ejercicio
+                                    aeróbico ayuda a disminuir paulatina y
+                                    eficazmente el porcentaje graso de la masa
+                                    corporal. ¿Cómo es posible que utilizando
+                                    solo entre el 60 y 75 % de nuestra
+                                    capacidad física bajemos de peso? Porque al
+                                    realizar ejercicios aeróbicos nuestro
+                                    organismo necesita mayor oxigenación, esto
+                                    genera un incremento de la actividad
+                                    cardiovascular, pero de forma moderada, sin
+                                    forzar bruscamente al corazón como pasa en
+                                    las prácticas anaeróbicas donde el uso de
+                                    oxígeno es menor y el esfuerzo físico
+                                    mayor. Para poder realizar este proceso de
+                                    oxigenación el organismo requiere un mayor
+                                    consumo de energía generando la pérdida de
+                                    peso</p>
+                            </article>
+                        </div>
+                        <h4 class=\"tag\">Aeróbico</h4>
+                    </div>
+                </div>
+                <div class=\"col-sm-6 col-lg-12\">
+                    <div class=
+                         \"class class-overlay-container wow slideInUp\" style=
+                         \"visibility: visible; animation-name: slideInUp;\">
+                        <img alt=\"Class Image\" src=\"img/aero-local.jpg\">
+                        <div class=\"class-overlay clearfix\">
+                            <article class=\"entry-contents\" style=
+                            \"height: 100%;\">
+                                <p style=\"padding-top:30px\">El objetivo
+                                    principal de esta práctica es incrementar
+                                    la capacidad cardiovascular y modelar la
+                                    figura con ejercicios aeróbicos y rutinas
+                                    coreográficas. En esta práctica se combinan
+                                    coreografías, para estimular la
+                                    sincronización de movimientos; ejercicios
+                                    aeróbicos con pesas para tonificar los
+                                    distintos grupos musculares y ejercicios de
+                                    corrección de posturas para aliviar las
+                                    contracturas generadas por el stress.</p>
+                            </article>
+                        </div>
+                        <h4 class=\"tag\">Aero local - Extreme</h4>
+                    </div>
+                </div>
+                <div class=\"col-sm-6 col-lg-12\">
+                    <div class=
+                         \"class class-overlay-container wow slideInUp\" style=
+                         \"visibility: visible; animation-name: slideInUp;\">
+                        <img alt=\"Class Image\" src=
+                        \"http://www.themesinspire.biz/templates/your-fitness-html/red/images/classes/17.jpg\">
+                        <div class=\"class-overlay clearfix\">
+                            <article class=\"entry-contents\" style=
+                            \"height: 100%;\">
+                                <p style=\"padding-top:30px\">Es una
+                                    práctica aeróbica con un nivel moderado de
+                                    intensidad que involucra un trabajo físico
+                                    de fuerza y estiramiento global de todos
+                                    los grupos musculares. Es ideal para
+                                    recuperar o mantener la resistencia
+                                    aeróbica, reducir grasas y eliminar
+                                    toxinas. Por las características de las
+                                    rutinas es una práctica apta para
+                                    practicantes de todas las edades.</p>
+                            </article>
+                        </div>
+                        <h4 class=\"tag\">Zumba</h4>
+                    </div>
+                </div>
+                <div class=\"col-sm-6 col-lg-12\">
+                    <div class=
+                         \"class class-overlay-container wow slideInUp\" style=
+                         \"visibility: visible; animation-name: slideInUp;\">
+                        <img alt=\"Class Image\" src=
+                        \"http://www.themesinspire.biz/templates/your-fitness-html/red/images/classes/8.jpg\">
+                        <div class=\"class-overlay clearfix\">
+                            <article class=\"entry-contents\" style=
+                            \"height: 100%;\">
+                                <p style=\"padding-top:30px\">El
+                                    entrenamiento con pesas es parte esencial
+                                    en la preparación física de todos los
+                                    deportes. Como su nombre lo indica
+                                    “Complemento de Pesas”, de eso se trata,
+                                    realizar una actividad deportiva
+                                    complementaria que se adapte a las
+                                    necesidades específicas de cada deporte. La
+                                    diversidad de rutinas posibles permite no
+                                    solo incrementar la masa muscular, sino
+                                    que, con una correcta selección de
+                                    ejercicios se puede trabajar la
+                                    tonificación, resistencia y elasticidad de
+                                    los distintos grupos musculares.</p>
+                            </article>
+                        </div>
+                        <h4 class=\"tag\">Complemento de pesas</h4>
+                    </div>
+                </div>
+                <div class=\"col-sm-6 col-lg-12\">
+                    <div class=
+                         \"class class-overlay-container wow slideInUp\" style=
+                         \"visibility: visible; animation-name: slideInUp;\">
+                        <img alt=\"Class Image\" src=
+                        \"http://www.themesinspire.biz/templates/your-fitness-html/red/images/classes/13.jpg\">
+                        <div class=\"class-overlay clearfix\">
+                            <article class=\"entry-contents\" style=
+                            \"height: 100%;\">
+                                <p style=\"padding-top:30px\">Es la fusión
+                                    entre la gran diversidad de movimintos de
+                                    las artes marciales y el boxeo. Esta
+                                    combinación permite dosificar el trabajo
+                                    cardiovascular mediante pausas activas
+                                    mejorando de este modo cada instante de la
+                                    práctica aumentando la fuerza, potencia,
+                                    resistencia, flexibilidad, cordinación y
+                                    equilibrio. Mediante el trabajo regular,
+                                    continuo y periódico de las técnicas de
+                                    Combate se producen resultados visibles a
+                                    nivel cardiovascular, respiratorio y
+                                    muscular.</p>
+                            </article>
+                        </div>
+                        <h4 class=\"tag\">Hard Combat</h4>
+                    </div>
+                </div>
+                <div class=\"col-sm-6 col-lg-12\">
+                    <div class=
+                         \"class class-overlay-container wow slideInUp\" style=
+                         \"visibility: visible; animation-name: slideInUp;\">
+                        <img alt=\"Class Image\" src=\"img/spininng.jpg\">
+                        <div class=\"class-overlay clearfix\">
+                            <article class=\"entry-contents\" style=
+                            \"height: 100%;\">
+                                <p style=\"padding-top:30px\">Es una
+                                    práctica ideal recomendada para los amantes
+                                    de la bicicleta y para quienes buscan
+                                    realizar un ejercicio intenso que involucre
+                                    a todos los grupos musculares. Entre las
+                                    ventajas que podemos contabilizar está el
+                                    bajo impacto. Por las características del
+                                    entrenamiento las articulaciones no sufren
+                                    el impacto constante que por ejemplo exige
+                                    correr en la cinta. Además mejora
+                                    notablemente la tonicidad del torso e
+                                    incrementa y tonifica la masa muscular de
+                                    las piernas.</p>
+                            </article>
+                        </div>
+                        <h4 class=\"tag\">Indoor Cycle</h4>
+                    </div>
+                </div>
+                <div class=\"col-sm-6 col-lg-12\">
+                    <div class=
+                         \"class class-overlay-container wow slideInUp\" style=
+                         \"visibility: visible; animation-name: slideInUp;\">
+                        <img alt=\"Class Image\" src=
+                        \"http://www.themesinspire.biz/templates/your-fitness-html/red/images/classes/3.jpg\">
+                        <div class=\"class-overlay clearfix\">
+                            <article class=\"entry-contents\" style=
+                            \"height: 100%;\">
+                                <p style=\"padding-top:30px\">Mediante
+                                    rutinas de ejercicios y posturas moderadas
+                                    esta actividad permite elongar de forma
+                                    global y paulatina los distintos grupos
+                                    musculares. En poco tiempo se logra
+                                    incrementar la flexibilidad, la
+                                    coordinación, mejorando la postura y
+                                    tonicidad muscular.</p>
+                            </article>
+                        </div>
+                        <h4 class=\"tag\">Stretching</h4>
+                    </div>
+                </div>
+                <div class=\"col-sm-6 col-lg-12\">
+                    <div class=
+                         \"class class-overlay-container wow slideInUp\" style=
+                         \"visibility: visible; animation-name: slideInUp;\">
+                        <img alt=\"Class Image\" src=
+                        \"http://www.themesinspire.biz/templates/your-fitness-html/red/images/classes/18.jpg\">
+                        <div class=\"class-overlay clearfix\">
+                            <article class=\"entry-contents\" style=
+                            \"height: 100%;\">
+                                <p style=\"padding-top:30px\">Los ritmos
+                                    caribeños poseen un alto contenido
+                                    romántico en cada uno de sus movimientos.
+                                    Los ritmos caribeños tienen una fuerte raíz
+                                    de origen africano, los estilos más
+                                    populares son el son, el merengue, la salsa
+                                    y el cha-cha-cha. Estos ritmos tienen una
+                                    particular forma de bailar que consiste en
+                                    un movimiento de pies y caderas acompañado
+                                    de un tumbao que consta de tres tiempos y
+                                    pasitos. Esta práctica es ideal para
+                                    quienes buscan mejorar la coordinación y
+                                    aprender a bailar un ritmo caribeño.</p>
+                            </article>
+                        </div>
+                        <h4 class=\"tag\">Ritmos Caribeños</h4>
+                    </div>
+                </div>
+                <div class=\"col-sm-6 col-lg-12\">
+                    <div class=
+                         \"class class-overlay-container wow slideInUp\" style=
+                         \"visibility: visible; animation-name: slideInUp;\">
+                        <img alt=\"Class Image\" src=
+                        \"http://www.themesinspire.biz/templates/your-fitness-html/red/images/classes/7.jpg\">
+                        <div class=\"class-overlay clearfix\">
+                            <article class=\"entry-contents\" style=
+                            \"height: 100%;\">
+                                <p style=\"padding-top:30px\">El objetivo
+                                    principal de esta actividad es tonificar
+                                    los distintos grupos musculares. Es una
+                                    rutina intenza que utiliza el peso del
+                                    propio cuerpo como resistencia, graduando
+                                    la intensidad del entrenamiento y regulando
+                                    la capacidad aeróbica y musclar. Las
+                                    distintas rutinas de entrenamiento son
+                                    ideales para quemar grasas y marcar al
+                                    máximo todos los músculos del cuerpo.</p>
+                            </article>
+                        </div>
+                        <h4 class=\"tag\">Local 55</h4>
+                    </div>
+                </div>
+                <div class=\"col-sm-6 col-lg-12\">
+                    <div class=
+                         \"class class-overlay-container wow slideInUp\" style=
+                         \"visibility: visible; animation-name: slideInUp;\">
+                        <img alt=\"Class Image\" src=\"img/ketbell.jpg\">
+                        <div class=\"class-overlay clearfix\">
+                            <article class=\"entry-contents\" style=
+                            \"height: 100%;\">
+                                <p style=\"padding-top:30px\">MUY PRONTO</p>
+                            </article>
+                        </div>
+                        <h4 class=\"tag\">Entrenamiento Funcional</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class=\"mapa col-xs-12 col-lg-12\">
+            <div class=\"container-ribbon\">
+                <h1 class=\"ribbon\"><strong class=\"ribbon-content\">Donde
+                        estamos</strong></h1>
+            </div>
+            <div class=\"iframeMapa col-xs-12 col-lg-8 box col-lg-offset-2\"
+                 id=\"map\">
+                <iframe allowfullscreen=\"\" class=\"myIframe\" frameborder=\"0\"
+                        src=
+                        \"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.872960892381!2d-58.472658!3d-34.5820809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb6728d42feeb%3A0xcd1c05645c2eba8a!2sEner+Gym+Fitness!5e0!3m2!1ses!2sar!4v1472400940810\"
+                        style=\"border:0\"></iframe>
+            </div>
+        </section>
+    </main>
+    <footer class=\"footer col-xs-12\">
+        <div><img src=\"img/logomf2.png\"></div>
+    </footer>
+</div>
+<script src=\"js/jquery.min.js\">
+</script>
+<script src=\"js/bootstrap.js\">
+</script>
+<script src=\"http://code.jquery.com/jquery-migrate-1.2.1.min.js\" type=
+\"text/javascript\">
+</script>
+<script src=\"js/slick/slick.min.js\" type=\"text/javascript\">
+</script>
+<script src=\"js/wow.min.js\" type=\"text/javascript\">
+</script>
+<script type=\"text/javascript\">
+    \$(document).ready(function() {
+        \$('.demo').slick({
+            // Enables tabbing and arrow key navigation
+            accessibility: true,
+
+            // Adapts slider height to the current slide
+            adaptiveHeight: false,
+
+            // Change where the navigation arrows are attached (Selector, htmlString, Array, Element, jQuery object)
+            //appendArrows: \$(element),
+
+            // Change where the navigation dots are attached (Selector, htmlString, Array, Element, jQuery object)
+            //appendDots: \$(element),
+
+            // Enable Next/Prev arrows
+            arrows: true,
+
+            asNavFor: null,
+
+            // prev arrow
+            prevArrow: '<button type=\"button\" data-role=\"none\" class=\"slick-prev slick-arrow\" aria-label=\"Previous\" role=\"button\" style=\"display: block;\">Previous<\\/button>',
+
+            // next arrow
+            nextArrow: '<button type=\"button\" data-role=\"none\" class=\"slick-next slick-arrow\" aria-label=\"Next\" role=\"button\" style=\"display: block;\">Next<\\/button>',
+
+            // Enables auto play of slides
+            autoplay: false,
+
+            // Auto play change interval
+            autoplaySpeed: 3000,
+
+            // Enables centered view with partial prev/next slides.
+            // Use with odd numbered slidesToShow counts.
+            centerMode: false,
+
+            // Side padding when in center mode. (px or %)
+            centerPadding: '50px',
+
+            // CSS3 easing
+            cssEase: 'ease',
+
+            // Custom paging templates.
+            customPaging: function(slider, i) {
+                return '<button type=\"button\" data-role=\"none\">' + (i + 1) + '<\\/button>';
+            },
+
+            // Current slide indicator dots
+            dots: false,
+
+            // Class for slide indicator dots container
+            dotsClass: 'slick-dots',
+
+            // Enables desktop dragging
+            draggable: true,
+
+            // animate() fallback easing
+            easing: 'linear',
+
+            // Enables fade
+            fade: false,
+            focusOnSelect: false,
+
+            // Infinite looping
+            infinite: true,
+
+            // Initial slide
+            initialSlide: 0,
+
+            // Accepts 'ondemand' or 'progressive' for lazy load technique
+            lazyLoad: 'ondemand',
+
+            // Mobile first
+            mobileFirst: false,
+
+            // Pauses autoplay on hover
+            pauseOnHover: true,
+
+            // Pauses autoplay on focus
+            pauseOnFocus: true,
+
+            // Pauses autoplay when a dot is hovered
+            pauseOnDotsHover: false,
+
+            // Target containet to respond to
+            respondTo: 'window',
+
+            // Breakpoint triggered settings
+            responsive: [
+                {
+                    breakpoint: 768,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 1
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 1
+                    }
+                }
+            ],
+
+            // Setting this to more than 1 initializes <a href=\"http://www.jqueryscript.net/tags.php?/grid/\">grid<\\/a> mode.
+            // Use slidesPerRow to set how many slides should be in each row.
+            rows: 1,
+
+            // Change the slider's direction to become right-to-left
+            rtl: false,
+            // Slide element query
+            slide: '',
+            slidesToShow: 2,
+            slidesPerRow: 2,
+
+            // # of slides to scroll at a time
+            //slidesTo<a href=\"http://www.jqueryscript.net/tags.php?/Scroll/\">Scroll<\\/a>: 1,
+
+            speed: 300,
+            swipe: true,
+            swipeToSlide: false,
+            touchMove: true,
+            touchThreshold: 5,
+            useCSS: true,
+            useTransform: true,
+            variableWidth: false,
+            vertical: false,
+            verticalSwiping: false,
+            waitForAnimate: true,
+            zIndex: 1000
+
+        })});
+</script>
+</body>
+</html>";
+        
+        $__internal_0838008ec763e209eb07c28c85929dc8772c2fd165030ed70f9565faa40721ec->leave($__internal_0838008ec763e209eb07c28c85929dc8772c2fd165030ed70f9565faa40721ec_prof);
+
+    }
+
+    public function getTemplateName()
+    {
+        return "EnergymPageBundle:Default:index.html.twig";
+    }
+
+    public function isTraitable()
+    {
+        return false;
+    }
+
+    public function getDebugInfo()
+    {
+        return array (  80 => 39,  69 => 31,  65 => 30,  61 => 29,  57 => 28,  53 => 27,  49 => 26,  22 => 1,);
+    }
+
+    public function getSource()
+    {
+        return "<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=\"utf-8\">
+    <meta content=
+          \"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\"
+          name=\"viewport\">
+    <title>Energym Fitness Urquiza</title>
+
+
+    <meta http-equiv=\"content-type\" content=\"text/html; charset=iso-8859-1\">
+    <title>Gimnasio en Villa Urquiza - Energym Fitness</title>
+    <meta http-equiv=\"Content-Language\" content=\"es-ar\">
+    <meta content=\"Gimnasios en Argentina,Villa Urquiza,Gim,musculaciÃ³n,gimnasia,Gimnasia,aparatos,Fitness,abdominales,aero step,aerÃ³bica,aero local,gym-local,indor cycle, local,localizada,local power training,pilates,power step,step local,stetching,tae-bo,taekwon-do,training,Suplementos nutricionales para deportistas,cintas de correr,maquinas,discos,pesas,mancuernas,proteinas,vitaminas,creatina,glutamina,aminoacidos,cabohidratos\" name=\"description\">
+    <meta http-equiv=\"description\" content=\"Gimnasios en Argentina,Villa Urquiza,Gim,musculaciÃ³n,gimnasia,Gimnasia,aparatos,Fitness,abdominales,aero step,aerÃ³bica,aero local,gym-local,indor cycle, local,localizada,local power training,pilates,power step,step local,stetching,tae-bo,taekwon-do,training,Suplementos nutricionales para deportistas,cintas de correr,maquinas,discos,pesas,mancuernas,proteinas,vitaminas,creatina,glutamina,aminoacidos,cabohidratos\">
+    <meta http-equiv=\"DC.Description\" content=\"Gimnasios en Argentina,Villa Urquiza,Gim,musculaciÃ³n,gimnasia,Gimnasia,aparatos,Fitness,abdominales,aero step,aerÃ³bica,aero local,gym-local,indor cycle, local,localizada,local power training,pilates,power step,step local,stetching,tae-bo,taekwon-do,training,Suplementos nutricionales para deportistas,cintas de correr,maquinas,discos,pesas,mancuernas,proteinas,vitaminas,creatina,glutamina,aminoacidos,cabohidrato\">
+    <meta content=\"Gimnasios en Argentina Villa Urquiza musculaciÃ³n gimnasia Gimnasia aparatos sauna Fitness Pilates Abdominales Aero Aero Local Gym-Local Indor Cycle Local Localizada Local power training Power Step Step Local Stretching Tae-Bo Taekwon-Do Training Suplementos nutricionales para deportistas cintas de correr maquinas discos pesas mancuernas proteinas vitaminas creatina glutamina aminoacidos cabohidratos\" name=\"keywords\">
+    <meta http-equiv=\"keywords\" content=\"Gimnasios en Argentina Villa Urquiza musculaciÃ³n gimnasia Gimnasia aparatos sauna Fitness Pilates Abdominales Aero Aero Local Gym-Local Indor Cycle Local Localizada Local power training Power Step Step Local Stretching Tae-Bo Taekwon-Do Training Suplementos nutricionales para deportistas cintas de correr maquinas discos pesas mancuernas proteinas vitaminas creatina glutamina aminoacidos cabohidratos\">
+    <meta name=\"author\" content=\"www.webymultimedia.com.ar\">
+    <meta name=\"copyright\" content=\"Â©EnerGym Fitness - Todos los Derechos Reservados. \">
+    <meta name=\"distribution\" content=\"global\">
+    <meta name=\"robots\" content=\"all\">
+    <meta name=\"rating\" content=\"general\">
+    <meta name=\"geo.position\" content=\"-34.6000; -58.4000\">
+
+    <link href='{{ asset(\"css/bootstrap.css\") }}' rel=\"stylesheet\" type=\"text/css\">
+    <link href='{{ asset(\"css/estilos.css\") }}' rel=\"stylesheet\" type=\"text/css\">
+    <link href='{{ asset(\"css/animate.css\") }}' rel=\"stylesheet\" type=\"text/css\">
+    <link href='{{ asset(\"css/theme.css\") }}' rel=\"stylesheet\" type=\"text/css\">
+    <link href='{{ asset(\"css/slick-theme.css\") }}' rel=\"stylesheet\" type=\"text/css\">
+    <link href='{{ asset(\"css/font-awesome.min.css\") }}' rel=\"stylesheet\" type=\"text/css\">
+    <link href=\"http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css\" rel=
+    \"stylesheet\" type=\"text/css\">
+</head>
+<body>
+<div class=\"container-fluid wrapper\">
+    <header>
+        <section class=\"logo\">
+            <img src='{{ asset(\"img/logo3.png\") }}'>
+            <nav class=\"navbar navbar-default\">
+                <div class=\"container-fluid\">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class=\"navbar-header\">
+                        <button aria-expanded=\"false\" class=
+                        \"navbar-toggle collapsed\" data-target=
+                                \"#bs-example-navbar-collapse-1\" data-toggle=
+                                \"collapse\" type=\"button\"><span class=
+                                                               \"sr-only\">Toggle navigation</span> <span class=
+                                                                                                        \"icon-bar\"></span> <span class=\"icon-bar\"></span>
+                            <span class=\"icon-bar\"></span></button>
+                    </div>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class=\"collapse navbar-collapse\" id=
+                    \"bs-example-navbar-collapse-1\">
+                        <ul class=\"nav navbar-nav\">
+                            <li>
+                                <a href=\"/\">Home</a>
+                            </li>
+                            <li>
+                                <a href=\"acerca\">Acerca de</a>
+                            </li>
+                            <li>
+                                <a href=\"horarios\">Horarios</a>
+                            </li>
+                            <li>
+                                <a href=\"contacto\">Contacto</a>
+                            </li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+            </nav>
+        </section>
+    </header>
+    <main class=\"col-xs-12 col-lg-12\">
+        <section class=\"carrousel\">
+            <div class=\"carousel slide\" data-ride=\"carousel\" id=
+            \"myCarousel\">
+                <!-- Indicators -->
+                <ol class=\"carousel-indicators\">
+                    <li class=\"active\" data-slide-to=\"0\" data-target=
+                    \"#myCarousel\"></li>
+                    <li data-slide-to=\"1\" data-target=\"#myCarousel\"></li>
+                    <li data-slide-to=\"2\" data-target=\"#myCarousel\"></li>
+                    <li data-slide-to=\"3\" data-target=\"#myCarousel\"></li>
+                    <li data-slide-to=\"4\" data-target=\"#myCarousel\"></li>
+                    <li data-slide-to=\"5\" data-target=\"#myCarousel\"></li>
+                    <li data-slide-to=\"6\" data-target=\"#myCarousel\"></li>
+                    <li data-slide-to=\"7\" data-target=\"#myCarousel\"></li>
+                    <li data-slide-to=\"8\" data-target=\"#myCarousel\"></li>
+                    <li data-slide-to=\"9\" data-target=\"#myCarousel\"></li>
+                    <li data-slide-to=\"10\" data-target=\"#myCarousel\"></li>
+                    <li data-slide-to=\"11\" data-target=\"#myCarousel\"></li>
+                    <li data-slide-to=\"12\" data-target=\"#myCarousel\"></li>
+                    <li data-slide-to=\"13\" data-target=\"#myCarousel\"></li>
+                    <li data-slide-to=\"14\" data-target=\"#myCarousel\"></li>
+                    <li data-slide-to=\"15\" data-target=\"#myCarousel\"></li>
+                </ol><!-- Wrapper for slides -->
+                <div class=\"carousel-inner\" role=\"listbox\">
+                    <div class=\"item active\"><img alt=\"Chania\" src=
+                        \"img/0.jpg\"></div>
+                    <div class=\"item\"><img alt=\"Chania\" src=
+                        \"img/1.jpg\"></div>
+                    <div class=\"item\"><img alt=\"Flower\" src=
+                        \"img/2.jpg\"></div>
+                    <div class=\"item\"><img alt=\"Flower\" src=
+                        \"img/3.jpg\"></div>
+                    <div class=\"item\"><img alt=\"Flower\" src=
+                        \"img/4.jpg\"></div>
+                    <div class=\"item\"><img alt=\"Flower\" src=
+                        \"img/5.jpg\"></div>
+                    <div class=\"item\"><img alt=\"Flower\" src=
+                        \"img/6.jpg\"></div>
+                    <div class=\"item\"><img alt=\"Flower\" src=
+                        \"img/7.jpg\"></div>
+                    <div class=\"item\"><img alt=\"Flower\" src=
+                        \"img/8.jpg\"></div>
+                    <div class=\"item\"><img alt=\"Flower\" src=
+                        \"img/9.jpg\"></div>
+                    <div class=\"item\"><img alt=\"Flower\" src=
+                        \"img/10.jpg\"></div>
+                    <div class=\"item\"><img alt=\"Flower\" src=
+                        \"img/11.jpg\"></div>
+                    <div class=\"item\"><img alt=\"Flower\" src=
+                        \"img/12.jpg\"></div>
+                    <div class=\"item\"><img alt=\"Flower\" src=
+                        \"img/13.jpg\"></div>
+                    <div class=\"item\"><img alt=\"Flower\" src=
+                        \"img/14.jpg\"></div>
+                    <div class=\"item\"><img alt=\"Flower\" src=
+                        \"img/15.jpg\"></div>
+                </div><!-- Left and right controls -->
+                <a class=\"left carousel-control\" data-slide=\"prev\" href=
+                \"#myCarousel\" role=\"button\"><span aria-hidden=\"true\" class=
+                    \"glyphicon glyphicon-chevron-left\"></span> <span class=
+                                                                     \"sr-only\">Previous</span></a> <a class=
+                                                                                                      \"right carousel-control\" data-slide=\"next\" href=
+                                                                                                      \"#myCarousel\" role=\"button\"><span aria-hidden=\"true\" class=
+                    \"glyphicon glyphicon-chevron-right\"></span> <span class=
+                                                                      \"sr-only\">Next</span></a>
+            </div>
+        </section>
+        <section class=\"actividades col-lg-12 col-xs-12\">
+            <h1 class=\"ribbon\"><strong class=\"ribbon-content\">Nuestras
+                    actividades</strong></h1>
+            <div class=\"col-lg-11 col-xs-12 col-lg-offset-1\">
+                <div class=\"act-caja col-lg-2 col-xs-12\">
+                    <img alt=\"...\" class=\"img-circle\" src=
+                    \"img/musculacion.jpg\"> <label class=
+                                                  \"actividad\">Musculacion</label>
+                </div>
+                <div class=\"act-caja col-lg-2 col-xs-12\">
+                    <img alt=\"...\" class=\"img-circle\" src=
+                    \"img/rutinas.jpg\"> <label class=
+                                              \"actividad\">Rutina</label>
+                </div>
+                <div class=\"act-caja col-lg-2 col-xs-12\">
+                    <img alt=\"...\" class=\"img-circle\" src=
+                    \"img/aerobics.jpg\"> <label class=
+                                               \"actividad\">aerobics</label>
+                </div>
+                <div class=\"act-caja col-lg-2 col-xs-12\">
+                    <img alt=\"...\" class=\"img-circle\" src=\"img/salon.jpg\">
+                    <label class=\"actividad\">salon</label>
+                </div>
+                <div class=\"act-caja col-lg-2 col-xs-12\">
+                    <img alt=\"...\" class=\"img-circle\" src=\"img/Spa.jpg\">
+                    <label class=\"actividad\">Spa</label>
+                </div>
+            </div>
+        </section>
+        <section class=\" col-lg-12 col-xs-12\">
+            <h1 class=\"ribbon\"><strong class=
+                                       \"ribbon-content\">Clases</strong></h1>
+            <div class=
+                 \"slider demo col-sm-12 col-lg-12 col-lg-offset-2 col-xs-offset-1\"
+                 style=\" width: 70%; text-align: center;\">
+                <div class=\"col-sm-6 col-lg-12\">
+                    <div class=
+                         \"class class-overlay-container wow slideInUp\" style=
+                         \"visibility: visible; animation-name: slideInUp;\">
+                        <img alt=\"Class Image\" src=
+                        \"http://www.themesinspire.biz/templates/your-fitness-html/red/images/classes/1.jpg\">
+                        <div class=\"class-overlay clearfix\">
+                            <article class=\"entry-contents\" style=
+                            \"height: 100%;\">
+                                <p style=\"padding-top:150px\">En esta
+                                    actividad convergen distintas técnicas
+                                    pensadas para mejorar la elasticidad, la
+                                    elongación, la relajación y las técnicas de
+                                    respiración. Se realiza en colchonetas
+                                    sobre el suelo y puede incluir el uso de
+                                    diversos elementos como bandas elásticas,
+                                    pelotas, pesas o aros para lograr un mejor
+                                    rendimiento físico en cada rutina de
+                                    ejercicios.</p>
+                            </article>
+                        </div>
+                        <h4 class=\"tag\">Pilates</h4>
+                    </div>
+                </div>
+                <div class=\"col-sm-6 col-lg-12\">
+                    <div class=
+                         \"class class-overlay-container wow slideInUp\" style=
+                         \"visibility: visible; animation-name: slideInUp;\">
+                        <img alt=\"Class Image\" src=
+                        \"http://www.themesinspire.biz/templates/your-fitness-html/red/images/classes/9.jpg\">
+                        <div class=\"class-overlay clearfix\">
+                            <article class=\"entry-contents\" style=
+                            \"height: 100%;\">
+                                <p style=\"padding-top:30px\">La zona
+                                    abdominal esta compuesta por tres grupos
+                                    musculares: rectos, oblicuos y bajos. Para
+                                    ejercitar los músculos abdominales es
+                                    importante tener en cuenta no solo la
+                                    intensidad, sino también la postura-
+                                    Siguiendo las indicaciones del entrenador
+                                    en poco tiempo aprenderá a realizar
+                                    correctamente los ejercicios y rutinas que
+                                    le permitirán fortalecer y tonificar la
+                                    zona abdominal. Esta práctica es ideal para
+                                    quienes buscan tener un abdomen plano y
+                                    marcado.</p>
+                            </article>
+                        </div>
+                        <h4 class=\"tag\">Abdominales Total</h4>
+                    </div>
+                </div>
+                <div class=\"col-sm-6 col-lg-12\">
+                    <div class=
+                         \"class class-overlay-container wow slideInUp\" style=
+                         \"visibility: visible; animation-name: slideInUp;\">
+                        <img alt=\"Class Image\" src=
+                        \"http://www.themesinspire.biz/templates/your-fitness-html/red/images/classes/10.jpg\">
+                        <div class=\"class-overlay clearfix\">
+                            <article class=\"entry-contents\" style=
+                            \"height: 100%;\">
+                                <p style=\"padding-top:30px\">El ejercicio
+                                    aeróbico ayuda a disminuir paulatina y
+                                    eficazmente el porcentaje graso de la masa
+                                    corporal. ¿Cómo es posible que utilizando
+                                    solo entre el 60 y 75 % de nuestra
+                                    capacidad física bajemos de peso? Porque al
+                                    realizar ejercicios aeróbicos nuestro
+                                    organismo necesita mayor oxigenación, esto
+                                    genera un incremento de la actividad
+                                    cardiovascular, pero de forma moderada, sin
+                                    forzar bruscamente al corazón como pasa en
+                                    las prácticas anaeróbicas donde el uso de
+                                    oxígeno es menor y el esfuerzo físico
+                                    mayor. Para poder realizar este proceso de
+                                    oxigenación el organismo requiere un mayor
+                                    consumo de energía generando la pérdida de
+                                    peso</p>
+                            </article>
+                        </div>
+                        <h4 class=\"tag\">Aeróbico</h4>
+                    </div>
+                </div>
+                <div class=\"col-sm-6 col-lg-12\">
+                    <div class=
+                         \"class class-overlay-container wow slideInUp\" style=
+                         \"visibility: visible; animation-name: slideInUp;\">
+                        <img alt=\"Class Image\" src=\"img/aero-local.jpg\">
+                        <div class=\"class-overlay clearfix\">
+                            <article class=\"entry-contents\" style=
+                            \"height: 100%;\">
+                                <p style=\"padding-top:30px\">El objetivo
+                                    principal de esta práctica es incrementar
+                                    la capacidad cardiovascular y modelar la
+                                    figura con ejercicios aeróbicos y rutinas
+                                    coreográficas. En esta práctica se combinan
+                                    coreografías, para estimular la
+                                    sincronización de movimientos; ejercicios
+                                    aeróbicos con pesas para tonificar los
+                                    distintos grupos musculares y ejercicios de
+                                    corrección de posturas para aliviar las
+                                    contracturas generadas por el stress.</p>
+                            </article>
+                        </div>
+                        <h4 class=\"tag\">Aero local - Extreme</h4>
+                    </div>
+                </div>
+                <div class=\"col-sm-6 col-lg-12\">
+                    <div class=
+                         \"class class-overlay-container wow slideInUp\" style=
+                         \"visibility: visible; animation-name: slideInUp;\">
+                        <img alt=\"Class Image\" src=
+                        \"http://www.themesinspire.biz/templates/your-fitness-html/red/images/classes/17.jpg\">
+                        <div class=\"class-overlay clearfix\">
+                            <article class=\"entry-contents\" style=
+                            \"height: 100%;\">
+                                <p style=\"padding-top:30px\">Es una
+                                    práctica aeróbica con un nivel moderado de
+                                    intensidad que involucra un trabajo físico
+                                    de fuerza y estiramiento global de todos
+                                    los grupos musculares. Es ideal para
+                                    recuperar o mantener la resistencia
+                                    aeróbica, reducir grasas y eliminar
+                                    toxinas. Por las características de las
+                                    rutinas es una práctica apta para
+                                    practicantes de todas las edades.</p>
+                            </article>
+                        </div>
+                        <h4 class=\"tag\">Zumba</h4>
+                    </div>
+                </div>
+                <div class=\"col-sm-6 col-lg-12\">
+                    <div class=
+                         \"class class-overlay-container wow slideInUp\" style=
+                         \"visibility: visible; animation-name: slideInUp;\">
+                        <img alt=\"Class Image\" src=
+                        \"http://www.themesinspire.biz/templates/your-fitness-html/red/images/classes/8.jpg\">
+                        <div class=\"class-overlay clearfix\">
+                            <article class=\"entry-contents\" style=
+                            \"height: 100%;\">
+                                <p style=\"padding-top:30px\">El
+                                    entrenamiento con pesas es parte esencial
+                                    en la preparación física de todos los
+                                    deportes. Como su nombre lo indica
+                                    “Complemento de Pesas”, de eso se trata,
+                                    realizar una actividad deportiva
+                                    complementaria que se adapte a las
+                                    necesidades específicas de cada deporte. La
+                                    diversidad de rutinas posibles permite no
+                                    solo incrementar la masa muscular, sino
+                                    que, con una correcta selección de
+                                    ejercicios se puede trabajar la
+                                    tonificación, resistencia y elasticidad de
+                                    los distintos grupos musculares.</p>
+                            </article>
+                        </div>
+                        <h4 class=\"tag\">Complemento de pesas</h4>
+                    </div>
+                </div>
+                <div class=\"col-sm-6 col-lg-12\">
+                    <div class=
+                         \"class class-overlay-container wow slideInUp\" style=
+                         \"visibility: visible; animation-name: slideInUp;\">
+                        <img alt=\"Class Image\" src=
+                        \"http://www.themesinspire.biz/templates/your-fitness-html/red/images/classes/13.jpg\">
+                        <div class=\"class-overlay clearfix\">
+                            <article class=\"entry-contents\" style=
+                            \"height: 100%;\">
+                                <p style=\"padding-top:30px\">Es la fusión
+                                    entre la gran diversidad de movimintos de
+                                    las artes marciales y el boxeo. Esta
+                                    combinación permite dosificar el trabajo
+                                    cardiovascular mediante pausas activas
+                                    mejorando de este modo cada instante de la
+                                    práctica aumentando la fuerza, potencia,
+                                    resistencia, flexibilidad, cordinación y
+                                    equilibrio. Mediante el trabajo regular,
+                                    continuo y periódico de las técnicas de
+                                    Combate se producen resultados visibles a
+                                    nivel cardiovascular, respiratorio y
+                                    muscular.</p>
+                            </article>
+                        </div>
+                        <h4 class=\"tag\">Hard Combat</h4>
+                    </div>
+                </div>
+                <div class=\"col-sm-6 col-lg-12\">
+                    <div class=
+                         \"class class-overlay-container wow slideInUp\" style=
+                         \"visibility: visible; animation-name: slideInUp;\">
+                        <img alt=\"Class Image\" src=\"img/spininng.jpg\">
+                        <div class=\"class-overlay clearfix\">
+                            <article class=\"entry-contents\" style=
+                            \"height: 100%;\">
+                                <p style=\"padding-top:30px\">Es una
+                                    práctica ideal recomendada para los amantes
+                                    de la bicicleta y para quienes buscan
+                                    realizar un ejercicio intenso que involucre
+                                    a todos los grupos musculares. Entre las
+                                    ventajas que podemos contabilizar está el
+                                    bajo impacto. Por las características del
+                                    entrenamiento las articulaciones no sufren
+                                    el impacto constante que por ejemplo exige
+                                    correr en la cinta. Además mejora
+                                    notablemente la tonicidad del torso e
+                                    incrementa y tonifica la masa muscular de
+                                    las piernas.</p>
+                            </article>
+                        </div>
+                        <h4 class=\"tag\">Indoor Cycle</h4>
+                    </div>
+                </div>
+                <div class=\"col-sm-6 col-lg-12\">
+                    <div class=
+                         \"class class-overlay-container wow slideInUp\" style=
+                         \"visibility: visible; animation-name: slideInUp;\">
+                        <img alt=\"Class Image\" src=
+                        \"http://www.themesinspire.biz/templates/your-fitness-html/red/images/classes/3.jpg\">
+                        <div class=\"class-overlay clearfix\">
+                            <article class=\"entry-contents\" style=
+                            \"height: 100%;\">
+                                <p style=\"padding-top:30px\">Mediante
+                                    rutinas de ejercicios y posturas moderadas
+                                    esta actividad permite elongar de forma
+                                    global y paulatina los distintos grupos
+                                    musculares. En poco tiempo se logra
+                                    incrementar la flexibilidad, la
+                                    coordinación, mejorando la postura y
+                                    tonicidad muscular.</p>
+                            </article>
+                        </div>
+                        <h4 class=\"tag\">Stretching</h4>
+                    </div>
+                </div>
+                <div class=\"col-sm-6 col-lg-12\">
+                    <div class=
+                         \"class class-overlay-container wow slideInUp\" style=
+                         \"visibility: visible; animation-name: slideInUp;\">
+                        <img alt=\"Class Image\" src=
+                        \"http://www.themesinspire.biz/templates/your-fitness-html/red/images/classes/18.jpg\">
+                        <div class=\"class-overlay clearfix\">
+                            <article class=\"entry-contents\" style=
+                            \"height: 100%;\">
+                                <p style=\"padding-top:30px\">Los ritmos
+                                    caribeños poseen un alto contenido
+                                    romántico en cada uno de sus movimientos.
+                                    Los ritmos caribeños tienen una fuerte raíz
+                                    de origen africano, los estilos más
+                                    populares son el son, el merengue, la salsa
+                                    y el cha-cha-cha. Estos ritmos tienen una
+                                    particular forma de bailar que consiste en
+                                    un movimiento de pies y caderas acompañado
+                                    de un tumbao que consta de tres tiempos y
+                                    pasitos. Esta práctica es ideal para
+                                    quienes buscan mejorar la coordinación y
+                                    aprender a bailar un ritmo caribeño.</p>
+                            </article>
+                        </div>
+                        <h4 class=\"tag\">Ritmos Caribeños</h4>
+                    </div>
+                </div>
+                <div class=\"col-sm-6 col-lg-12\">
+                    <div class=
+                         \"class class-overlay-container wow slideInUp\" style=
+                         \"visibility: visible; animation-name: slideInUp;\">
+                        <img alt=\"Class Image\" src=
+                        \"http://www.themesinspire.biz/templates/your-fitness-html/red/images/classes/7.jpg\">
+                        <div class=\"class-overlay clearfix\">
+                            <article class=\"entry-contents\" style=
+                            \"height: 100%;\">
+                                <p style=\"padding-top:30px\">El objetivo
+                                    principal de esta actividad es tonificar
+                                    los distintos grupos musculares. Es una
+                                    rutina intenza que utiliza el peso del
+                                    propio cuerpo como resistencia, graduando
+                                    la intensidad del entrenamiento y regulando
+                                    la capacidad aeróbica y musclar. Las
+                                    distintas rutinas de entrenamiento son
+                                    ideales para quemar grasas y marcar al
+                                    máximo todos los músculos del cuerpo.</p>
+                            </article>
+                        </div>
+                        <h4 class=\"tag\">Local 55</h4>
+                    </div>
+                </div>
+                <div class=\"col-sm-6 col-lg-12\">
+                    <div class=
+                         \"class class-overlay-container wow slideInUp\" style=
+                         \"visibility: visible; animation-name: slideInUp;\">
+                        <img alt=\"Class Image\" src=\"img/ketbell.jpg\">
+                        <div class=\"class-overlay clearfix\">
+                            <article class=\"entry-contents\" style=
+                            \"height: 100%;\">
+                                <p style=\"padding-top:30px\">MUY PRONTO</p>
+                            </article>
+                        </div>
+                        <h4 class=\"tag\">Entrenamiento Funcional</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class=\"mapa col-xs-12 col-lg-12\">
+            <div class=\"container-ribbon\">
+                <h1 class=\"ribbon\"><strong class=\"ribbon-content\">Donde
+                        estamos</strong></h1>
+            </div>
+            <div class=\"iframeMapa col-xs-12 col-lg-8 box col-lg-offset-2\"
+                 id=\"map\">
+                <iframe allowfullscreen=\"\" class=\"myIframe\" frameborder=\"0\"
+                        src=
+                        \"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.872960892381!2d-58.472658!3d-34.5820809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb6728d42feeb%3A0xcd1c05645c2eba8a!2sEner+Gym+Fitness!5e0!3m2!1ses!2sar!4v1472400940810\"
+                        style=\"border:0\"></iframe>
+            </div>
+        </section>
+    </main>
+    <footer class=\"footer col-xs-12\">
+        <div><img src=\"img/logomf2.png\"></div>
+    </footer>
+</div>
+<script src=\"js/jquery.min.js\">
+</script>
+<script src=\"js/bootstrap.js\">
+</script>
+<script src=\"http://code.jquery.com/jquery-migrate-1.2.1.min.js\" type=
+\"text/javascript\">
+</script>
+<script src=\"js/slick/slick.min.js\" type=\"text/javascript\">
+</script>
+<script src=\"js/wow.min.js\" type=\"text/javascript\">
+</script>
+<script type=\"text/javascript\">
+    \$(document).ready(function() {
+        \$('.demo').slick({
+            // Enables tabbing and arrow key navigation
+            accessibility: true,
+
+            // Adapts slider height to the current slide
+            adaptiveHeight: false,
+
+            // Change where the navigation arrows are attached (Selector, htmlString, Array, Element, jQuery object)
+            //appendArrows: \$(element),
+
+            // Change where the navigation dots are attached (Selector, htmlString, Array, Element, jQuery object)
+            //appendDots: \$(element),
+
+            // Enable Next/Prev arrows
+            arrows: true,
+
+            asNavFor: null,
+
+            // prev arrow
+            prevArrow: '<button type=\"button\" data-role=\"none\" class=\"slick-prev slick-arrow\" aria-label=\"Previous\" role=\"button\" style=\"display: block;\">Previous<\\/button>',
+
+            // next arrow
+            nextArrow: '<button type=\"button\" data-role=\"none\" class=\"slick-next slick-arrow\" aria-label=\"Next\" role=\"button\" style=\"display: block;\">Next<\\/button>',
+
+            // Enables auto play of slides
+            autoplay: false,
+
+            // Auto play change interval
+            autoplaySpeed: 3000,
+
+            // Enables centered view with partial prev/next slides.
+            // Use with odd numbered slidesToShow counts.
+            centerMode: false,
+
+            // Side padding when in center mode. (px or %)
+            centerPadding: '50px',
+
+            // CSS3 easing
+            cssEase: 'ease',
+
+            // Custom paging templates.
+            customPaging: function(slider, i) {
+                return '<button type=\"button\" data-role=\"none\">' + (i + 1) + '<\\/button>';
+            },
+
+            // Current slide indicator dots
+            dots: false,
+
+            // Class for slide indicator dots container
+            dotsClass: 'slick-dots',
+
+            // Enables desktop dragging
+            draggable: true,
+
+            // animate() fallback easing
+            easing: 'linear',
+
+            // Enables fade
+            fade: false,
+            focusOnSelect: false,
+
+            // Infinite looping
+            infinite: true,
+
+            // Initial slide
+            initialSlide: 0,
+
+            // Accepts 'ondemand' or 'progressive' for lazy load technique
+            lazyLoad: 'ondemand',
+
+            // Mobile first
+            mobileFirst: false,
+
+            // Pauses autoplay on hover
+            pauseOnHover: true,
+
+            // Pauses autoplay on focus
+            pauseOnFocus: true,
+
+            // Pauses autoplay when a dot is hovered
+            pauseOnDotsHover: false,
+
+            // Target containet to respond to
+            respondTo: 'window',
+
+            // Breakpoint triggered settings
+            responsive: [
+                {
+                    breakpoint: 768,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 1
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 1
+                    }
+                }
+            ],
+
+            // Setting this to more than 1 initializes <a href=\"http://www.jqueryscript.net/tags.php?/grid/\">grid<\\/a> mode.
+            // Use slidesPerRow to set how many slides should be in each row.
+            rows: 1,
+
+            // Change the slider's direction to become right-to-left
+            rtl: false,
+            // Slide element query
+            slide: '',
+            slidesToShow: 2,
+            slidesPerRow: 2,
+
+            // # of slides to scroll at a time
+            //slidesTo<a href=\"http://www.jqueryscript.net/tags.php?/Scroll/\">Scroll<\\/a>: 1,
+
+            speed: 300,
+            swipe: true,
+            swipeToSlide: false,
+            touchMove: true,
+            touchThreshold: 5,
+            useCSS: true,
+            useTransform: true,
+            variableWidth: false,
+            vertical: false,
+            verticalSwiping: false,
+            waitForAnimate: true,
+            zIndex: 1000
+
+        })});
+</script>
+</body>
+</html>";
+    }
+}

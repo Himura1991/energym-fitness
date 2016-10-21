@@ -1,0 +1,8 @@
+energym_page:
+    resource: "@EnergymPageBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation

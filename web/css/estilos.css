@@ -1,0 +1,301 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Orbitron|Syncopate);
+.logo {
+  width:100%;
+  height: auto;
+  background-color:black;
+}
+
+
+html {
+  min-height: 100%;
+}
+
+body {
+  background-color: #181818;
+  background-position: center 0;
+  position: relative;
+  min-height: 100%;
+  height: auto !important;
+  /* real browsers */
+  font-family: "PT Sans",sans-serif;
+
+}
+
+
+.logo img{
+  width:360px; /* you can use % */
+  height: auto;
+
+}
+
+.brand {
+  width:60px; /* you can use % */
+  height: auto
+}
+
+
+html, body, main{ height: 100%;  !important}
+body > #container { height: auto; min-height: 100%; }
+
+a {
+  font-family: 'Syncopate', sans-serif;
+  font-size:25px;
+}
+
+h1 {
+	font-family : 'Syncopate', sans-serif;;
+}
+
+label {
+	font-family : 'Syncopate', sans-serif;
+	font-size: 18px;
+}
+.carrousel {
+
+}
+
+.carousel-inner img {
+	text-align: center;
+} 
+
+.item div{
+	text-align: center;
+} 
+
+.footer {
+	background: #DF0024 url(../img/fondo2.png) repeat-x;
+	width:100%;
+	height:100px;
+	bottom:0;
+	left:0;
+	position:absolute;
+
+}
+
+.footer img { 
+	width: 113px;
+	float: right;
+}
+
+.wrapper {
+	min-height:100%;
+	position:relative;
+}
+
+.actividades {
+	text-align: center;
+	/*margin-left:auto;*/
+	/*margin-right:auto;*/
+	margin-top: 25px;
+	font-size:18px;
+}
+
+.actividades label {
+	color:white;
+	margin:10px 0px 10px 0px;
+}
+
+.actividad {
+	display:block; 
+	background-color:#DF0024;
+	padding:2px 5px;
+}
+
+.act-caja {
+	 margin : 10px;
+	 display:inline; 
+}
+
+.mapa {
+	margin-top:25px;
+	text-align: center;
+	margin-bottom: 50px;
+	height:700px;
+}
+
+
+.ribbon {
+	 font-size: 16px !important;
+	 /* This ribbon is based on a 16px font side and a 24px vertical rhythm. I've used em's to position each element for scalability. If you want to use a different font size you may have to play with the position of the ribbon elements */
+
+	 width: 50%;
+	    
+	 position: relative;
+	 background: #DF0024;
+	 color: #fff;
+	 text-align: center;
+	 padding: 1em 2em; /* Adjust to suit */
+	 margin: 2em auto 3em; /* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the ribbon 'graphics' take up 24px themselves so we double it. */
+}
+
+.ribbon:before, .ribbon:after {
+	 content: "";
+	 position: absolute;
+	 display: block;
+	 bottom: -1em;
+	 border: 1.5em solid #DF0024;
+	 z-index: -1;
+}
+
+.ribbon:before {
+	 left: -2em;
+	 border-right-width: 1.5em;
+	 border-left-color: transparent;
+}
+
+.ribbon:after {
+	 right: -2em;
+	 border-left-width: 1.5em;
+	 border-right-color: transparent;
+}
+
+.ribbon .ribbon-content:before, .ribbon .ribbon-content:after {
+	 content: "";
+	 position: absolute;
+	 display: block;
+	 border-style: solid;
+	 border-color: #8E0623 transparent transparent transparent;
+	 bottom: -1em;
+}
+
+.ribbon .ribbon-content:before {
+	 left: 0;
+	 border-width: 1em 0 0 1em;
+}
+
+.ribbon .ribbon-content:after {
+	 right: 0;
+	 border-width: 1em 1em 0 0;
+	}
+
+.formulario {
+	margin-left:auto;
+	margin-right:auto;
+	width: 50%;
+	padding-top:50px;
+	padding-bottom:50px;
+}
+
+.formulario label {
+	color:white;
+}
+
+.formulario input {
+	margin-left:auto;
+	margin-right:auto;
+	width:100%;
+	border-color:#DF0024;
+	background-color: black;
+	color:white;
+}
+
+.formulario textarea {
+	margin-left:auto;
+	margin-right:auto;
+	width:100%;
+	border-color:#DF0024;
+	background-color: black;
+	color:white;
+}
+
+.descripcion h1 {
+	color: white;
+	padding-left: 20px;
+	font-size: 25px;
+	text-align: center;
+}
+
+.descripcion p {
+	color: white;
+	text-align: center;
+	font-size: 15px;
+}
+
+.myIframe {
+	height:450px;
+	margin-left:auto;
+	margin-right:auto;
+	width: inherit;
+}
+
+.iframeMapa {
+	z-index: 5000 !important;
+}
+
+.tag {
+   float: left;
+   position: absolute;
+   left: 0px;
+   top: 0px;
+   z-index: 1000;
+   background-color: #DF0024;
+   padding: 5px;
+   color: #FFFFFF;
+   font-weight: bold;
+}
+
+th {
+	color: #fff;
+	font-family : 'Syncopate', sans-serif;
+}
+
+
+td {
+	color: #fff;
+	font-family : 'Syncopate', sans-serif;
+}
+
+/*
+Max width before this PARTICULAR table gets nasty
+This query will take effect for any screen smaller than 760px
+and also iPads specifically.
+*/
+@media
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+	/* Force table to not be like tables anymore */
+	table, thead, tbody, th, td, tr {
+		display: block;
+	}
+
+	/* Hide table headers (but not display: none;, for accessibility) */
+	thead tr {
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+
+	tr { border: 1px solid #ccc; }
+
+	td {
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee;
+		position: relative;
+		padding-left: 50%;
+	}
+
+	td:before {
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%;
+		padding-right: 10px;
+		white-space: nowrap;
+	}
+
+	/*
+	Label the data
+	*/
+	td:nth-of-type(1):before { content: "Horario"; }
+	td:nth-of-type(2):before { content: "Lunes"; }
+	td:nth-of-type(3):before { content: "Martes"; }
+	td:nth-of-type(4):before { content: "Miercoles"; }
+	td:nth-of-type(5):before { content: "Jueves"; }
+	td:nth-of-type(6):before { content: "Viernes"; }
+	td:nth-of-type(7):before { content: "Sabado"; }
+}
