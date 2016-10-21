@@ -505,6 +505,10 @@
 </script>
 <script type="text/javascript">
     $(document).ready(function() {
+        if ($("main").height() < $(window).height()) {
+            $(".footer").css("position", "absolute");
+        }
+
         $('.demo').slick({
             // Enables tabbing and arrow key navigation
             accessibility: true,
